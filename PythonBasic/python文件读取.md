@@ -42,8 +42,8 @@ print(content)
   file = open('readme')
   texts = file.readlines()
   # texts是一个列表list
-  for text in texts
-  		print(text)
+  for text in texts:
+      print(text)
   ```
 
 ## 3. 大文件的读取
